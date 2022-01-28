@@ -307,6 +307,7 @@ nav > ul > a::before {
 
 .title-box {
   margin-bottom: 3rem;
+  display: flex;
 }
 
 .title-left {
@@ -341,6 +342,65 @@ nav > ul > a::before {
 }
 s .delete {
   background-color: #dc3545;
+}
+
+.about-title-box {
+  display: inline-block;
+  display: inline-block;
+  align-self: center;
+  font-size: 1.3rem;
+}
+
+.about-title-box span,
+.skill-title-box span,
+.skills-box span:nth-child(2n + 2) {
+  color: var(--light-grey);
+  cursor: pointer;
+  transition: all 0.5s ease;
+  align-self: center;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.skills-box span:nth-child(2n + 2):hover {
+  color: var(--primary);
+}
+
+.lead span {
+  font-size: 1rem;
+  margin-right: 5px;
+}
+
+.lead span:nth-child(1) {
+  margin-left: 10px;
+}
+
+.buttons-box {
+  margin-left: 10px;
+  display: inline;
+}
+
+.skill-title-box {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.skill-title {
+  font-weight: 600;
+  color: #1e1e1e;
+}
+
+.skills-box {
+  margin-top: 1.5rem;
+}
+
+.user-box {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.user-box span {
+  align-self: flex-end;
 }
 
 .services-box {
@@ -472,6 +532,7 @@ s .delete {
   color: var(--light-grey);
   cursor: pointer;
   transition: all 0.5s ease;
+  align-self: center;
 }
 
 .edit-icon:hover {
